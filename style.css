@@ -1,0 +1,109 @@
+body{
+    background-color: #3399cc;
+    color: white;
+    font: 200 16px "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    margin: 0%;
+    padding: 0%;
+    display: block;
+    min-height: 100%;
+}
+
+div{
+    margin: 0 auto;
+    max-width: 1024px;
+}
+
+ul, li{
+    display: inline-block;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box; 
+    box-sizing: border-box;
+}
+
+ul{
+    margin: 0%;
+    padding: 0%;
+    width: 70%;
+    text-align: center;
+    font-size: 0;
+    background-color: white;
+}
+
+ul:hover > li{
+    opacity: 0.3;
+}
+
+ul li:hover{
+    opacity: 1;
+}
+
+li{
+    padding: 30px 10px;
+    border: 2px solid #fff;
+    text-align: center;
+    font-size: 16px;
+}
+
+p{
+    color: azure;
+    padding: 7px;
+}
+
+.Lisabon{
+    background-color: rgb(48, 112, 207);
+    width: 50%;
+}
+
+.NY{
+    background-color: rgb(104, 16, 139);
+    width: 25%;
+}
+
+.Paris{
+    background-color: rgb(10, 94, 54);
+    width: 25%;
+}
+
+.Belgrade{
+    background-color: rgb(95, 3, 26);
+    width: 25%;
+}
+
+.Kyiv{
+    background-color: rgb(56, 119, 192);
+    width: 25%;
+}
+
+.TA{
+    background-color: rgb(230, 88, 6);
+    width: 25%;
+}
+
+.Cair{
+    background-color: rgb(110, 56, 180);
+    width: 25%;
+}
+
+.Kanbera{
+    background-color: rgb(82, 1, 99);
+    width: 25%;
+}
+
+.Berlin{
+    background-color: rgb(226, 0, 226);
+    width: 50%;
+}
+
+.Tokyo{
+    background-color: rgb(5, 255, 109);
+    width: 25%;
+}
+
+.Sydney{
+    background-color: rgb(104, 1, 36);
+    width: 100%;
+}
+
+header, footer {
+    padding: 5px 15px;
+}
